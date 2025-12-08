@@ -90,6 +90,6 @@ IT/EN: Contatti principali / Main Contact
 
 <div align="center">
 
-⭐️ Metti una stella se ti è utile · Star it if you find it useful
+✨ Metti una stella se ti è utile ✨ Star it if you find it useful ✨
 
 </div>
