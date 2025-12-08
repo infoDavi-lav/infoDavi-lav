@@ -72,7 +72,6 @@ EN: MIT (unless otherwise noted for individual projects).
 ## 👤 Autore | Author
 Davide Cocchetti / Davik
 
-## 🌐 Link
 
 <div align="center">
 
