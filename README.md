@@ -25,6 +25,7 @@ Utilizzato come **portfolio tecnico**, archivio e laboratorio di sviluppo.
 
 ## 🧱 ┃ Struttura del Repository
 ```txt```
+
 📁 project-name  
  ├─ 📄 README.md  
  ├─ 📁 src/  
