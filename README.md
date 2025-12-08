@@ -73,7 +73,6 @@ EN: MIT (unless otherwise noted for individual projects).
 Davide Cocchetti / Davik
 
 ## 🌐 Link
-IT/EN: Contatti principali / Main Contact
 
 <div align="center">
 
