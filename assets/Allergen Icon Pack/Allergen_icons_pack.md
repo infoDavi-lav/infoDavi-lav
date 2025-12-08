@@ -1,29 +1,33 @@
-# 🧾 Allergen Icons Pack (IT & EN)
+# Allergen Icons Pack (IT & EN)
 
-Set di icone allergeni in SVG/PNG (IT/EN) pronte per menu digitali, etichette e cartellonistica. Qui un’anteprima compatta e i link per acquistare il pacchetto completo.
+Set di icone allergeni in PNG/SVG (IT/EN) per menu digitali, etichette e cartellonistica. Anteprima compatta e link per acquistare il pacchetto completo.
 
 <div style="display:flex;gap:12px;flex-wrap:wrap;margin:12px 0;">
-  <a href="https://buymeacoffee.com/infodavik/e/486951" style="background:#ffdd00;color:#111;padding:10px 16px;border-radius:10px;font-weight:700;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,0.12);">☕ Buy Me a Coffee</a>
-  <a href="https://ko-fi.com/s/981f95bb71" style="background:#29abe0;color:#fff;padding:10px 16px;border-radius:10px;font-weight:700;text-decoration:none;box-shadow:0 4px 12px rgba(0,0,0,0.12);">❤️ Ko-fi</a>
+  <a href="https://buymeacoffee.com/infodavik/e/486951" style="background:#ffdd00;color:#111;padding:10px 16px;border-radius:10px;font-weight:700;text-decoration:none;">Buy Me a Coffee</a>
+  <a href="https://ko-fi.com/s/981f95bb71" style="background:#29abe0;color:#fff;padding:10px 16px;border-radius:10px;font-weight:700;text-decoration:none;">Ko-fi</a>
 </div>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px;padding:8px;">
-  <figure style="margin:0;text-align:center;">
-    <img src="img/gluten.svg" alt="Gluten (EN)" style="width:120px;height:120px;object-fit:contain;display:block;margin:0 auto;">
-    <figcaption style="margin-top:8px;font-weight:600;">Gluten (EN)</figcaption>
-  </figure>
-  <figure style="margin:0;text-align:center;">
-    <img src="img/glutine.svg" alt="Glutine (IT)" style="width:120px;height:120px;object-fit:contain;display:block;margin:0 auto;">
-    <figcaption style="margin-top:8px;font-weight:600;">Glutine (IT)</figcaption>
-  </figure>
-  <figure style="margin:0;text-align:center;">
-    <img src="img/peanut.svg" alt="Peanuts (EN)" style="width:120px;height:120px;object-fit:contain;display:block;margin:0 auto;">
-    <figcaption style="margin-top:8px;font-weight:600;">Peanuts (EN)</figcaption>
-  </figure>
-  <figure style="margin:0;text-align:center;">
-    <img src="img/arachidi.svg" alt="Arachidi (IT)" style="width:120px;height:120px;object-fit:contain;display:block;margin:0 auto;">
-    <figcaption style="margin-top:8px;font-weight:600;">Arachidi (IT)</figcaption>
-  </figure>
-</div>
+## Allergeni (preview PNG)
+<table>
+  <tr>
+    <td align="center" style="padding:8px;"><img src="img/gluten.png" alt="Gluten" width="110" height="110"><div>Gluten</div></td>
+    <td align="center" style="padding:8px;"><img src="img/glutine.png" alt="Glutine" width="110" height="110"><div>Glutine</div></td>
+    <td align="center" style="padding:8px;"><img src="img/peanut.png" alt="Peanuts" width="110" height="110"><div>Peanuts</div></td>
+    <td align="center" style="padding:8px;"><img src="img/arachidi.png" alt="Arachidi" width="110" height="110"><div>Arachidi</div></td>
+  </tr>
+</table>
 
-Compra il pack completo (PNG/SVG, IT/EN) con tutte le icone allergeni, ottimizzate per web e stampa leggera. Aggiorna gli `src` se usi nomi file diversi o aggiungi altri `<figure>` per nuove varianti.
+## Esempio: sezione menu ristorante
+<ul style="list-style:none;padding:0;">
+  <li style="margin:8px 0;display:flex;align-items:center;gap:10px;">
+    <img src="img/gluten.png" alt="Gluten" width="32" height="32"> Pappardelle ai funghi (contiene glutine)
+  </li>
+  <li style="margin:8px 0;display:flex;align-items:center;gap:10px;">
+    <img src="img/arachidi.png" alt="Arachidi" width="32" height="32"> Brownie al cioccolato (tracce di arachidi)
+  </li>
+  <li style="margin:8px 0;display:flex;align-items:center;gap:10px;">
+    <img src="img/peanut.png" alt="Peanuts" width="32" height="32"> Satay di pollo (arachidi)
+  </li>
+</ul>
+
+Compra il pack completo (PNG/SVG, IT/EN) con tutte le icone allergeni, pronte per web e stampa. Aggiorna i nomi file negli `src` se usi altre varianti.
