@@ -42,13 +42,6 @@ EN: Each project ships with description, tech stack and usage instructions.
 
 ---
 
-## ✨ Code Highlights
-IT: Snippet commentati in `estratti_codice.txt` (sicurezza sessioni, rate limit, SSE, backup, cucina). Aggiungerò altri esempi via via che il repo cresce.
-
-EN: Commented snippets in `estratti_codice.txt` (session security, rate limiting, SSE, backups, kitchen flow). More examples will land as the repo grows.
-
----
-
 ## 🎯 Obiettivi | Goals
 IT:
 - ✅ Mostrare competenze di sviluppo e soluzioni riutilizzabili
