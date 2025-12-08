@@ -1,0 +1,110 @@
+=== Estratti codice (Ristorante Manager Web) ===
+
+[1] Sessioni piu robuste e CSP con nonce (config/env.php)
+// Un piccolo paracadute: cookie piu sicuri, niente terze parti, e un nonce random
+// per permettere solo script firmati dal server
+$secure = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off');
+if ($secure) { @ini_set('session.cookie_secure', '1'); }
+@ini_set('session.cookie_httponly', '1');
+@ini_set('session.use_only_cookies', '1');
+session_set_cookie_params(['httponly' => true, 'samesite' => 'Strict', 'secure' => $secure, 'path' => '/']);
+session_name('RISTO_SESSID');
+session_start();
+function csp_nonce(): string {
+    static $nonce = null;
+    if ($nonce !== null) { return $nonce; }
+    return $nonce = bin2hex(random_bytes(16)); // 128 bit di entropia per gli script ammessi
+}
+header("Content-Security-Policy: default-src 'self'; script-src 'self' 'nonce-" . csp_nonce() . "'; object-src 'none'");
+
+[2] Rate limit anti brute force (lib/rate_limit.php)
+// Conta i tentativi per IP e, se esageri, ti mette in timeout gentile prima di ripartire
+function rl_on_failure(string $scope, string $ip, int $maxAttempts, int $windowSeconds, int $banSeconds): array {
+    $now = time();
+    [$path, $data] = rl_load($scope); // uno storage JSON per ogni scope, cosi e condiviso
+    $entry = rl_normalize($data[$ip] ?? ['first' => $now, 'fails' => 0, 'banUntil' => 0], $now, $windowSeconds);
+    $entry['fails']++;
+    $remaining = max(0, $maxAttempts - $entry['fails']);
+    $blocked = false; $retryAt = 0;
+    if ($entry['fails'] >= $maxAttempts) {
+        $entry['banUntil'] = $now + $banSeconds; // pausa forzata
+        $blocked = true; $retryAt = $entry['banUntil'];
+        $entry['fails'] = 0; $entry['first'] = $now; $remaining = 0; // reset finestra
+    }
+    $data[$ip] = $entry; rl_save($path, $data);
+    return ['blocked' => $blocked, 'retryAt' => $retryAt, 'remaining' => $remaining];
+}
+
+[3] Overlay JSON -> SQLite trasparente (lib/json_store.php)
+// Fa credere al resto dell'app di leggere JSON, in realta parla con il DB per avere dati freschi
+function json_store_virtual_read(string $path, $default = null): array {
+    $cleanPath = str_replace('\\', '/', $path);
+    $menuPath  = str_replace('\\', '/', DATA_DIR . '/menu.json');
+    if ($cleanPath === $menuPath) {
+        return ['handled' => true, 'data' => sqlite_load_menu()]; // menu sempre aggiornato
+    }
+    if (preg_match('~table_(\d+)\.json$~', $cleanPath, $m)) {
+        $tableId = (int)$m[1];
+        return ['handled' => true, 'data' => sqlite_load_tab($tableId)]; // ordini live dal DB
+    }
+    return ['handled' => false, 'data' => $default];
+}
+
+[4] Backup SQLite giornaliero WAL-safe (config/env.php)
+// Una copia al giorno leva i crash di torno: scarica il WAL e salva un dump datato
+function backup_db_daily(): void {
+    $dbPath = DATA_DIR . '/db.sqlite'; if (!is_readable($dbPath)) { return; }
+    $dayDir = BACKUP_DIR . '/db'; if (!is_dir($dayDir)) { @mkdir($dayDir, 0775, true); }
+    $today = date('Ymd'); $marker = $dayDir . '/.last_backup';
+    if (is_file($dayDir . '/db_' . $today . '.sqlite')) { @file_put_contents($marker, $today); return; }
+    try {
+        $pdo = function_exists('sqlite_conn') ? sqlite_conn() : new \PDO('sqlite:' . $dbPath);
+        $pdo->exec('PRAGMA wal_checkpoint(TRUNCATE);'); // flush WAL prima della copia
+        @copy($dbPath, $dayDir . '/db_' . $today . '.sqlite');
+        if (is_file($dbPath . '-wal')) { @copy($dbPath . '-wal', $dayDir . '/db_' . $today . '.sqlite-wal'); }
+        @file_put_contents($marker, $today);
+    } catch (\Throwable $e) { /* best-effort: logga ma non blocca */ }
+}
+
+[5] SSE tavoli in tempo reale (admin/sse_tables.php)
+// Un filo diretto col browser: se cambia tables_meta.json, arriva un evento push
+header('Content-Type: text/event-stream'); header('Cache-Control: no-cache'); ignore_user_abort(true); set_time_limit(0);
+function sse_send(string $event, string $data): void { echo "event: {$event}\n"; echo "data: {$data}\n\n"; @ob_flush(); @flush(); }
+$metaPath = DATA_DIR . '/tables_meta.json'; $last = (string)(json_read($metaPath, ['updatedAt' => null])['updatedAt'] ?? '');
+sse_send('ping', '{}'); // keepalive iniziale
+while (!connection_aborted()) {
+    $cur = (string)(json_read($metaPath, ['updatedAt' => null])['updatedAt'] ?? '');
+    if ($cur && $cur !== $last) { sse_send('message', json_encode(['updatedAt' => $cur])); $last = $cur; }
+    else { if ((time() % 15) === 0) { sse_send('ping', '{}'); } }
+    usleep(2000000); // 2s
+}
+
+[6] SSE menu meta con auth staff/admin (admin/api/menu_meta_sse.php)
+// Stesso canale SSE, ma solo se sei admin o staff: altrimenti ti risponde con un ping cortese
+$isAdmin = !empty($_SESSION['is_admin']); $isStaff = !empty($_SESSION['is_staff_auth']);
+if (!$isAdmin && !$isStaff) { http_response_code(403); echo "event: ping\ndata: {}\n\n"; @ob_flush(); @flush(); exit; }
+$last = isset($_GET['last']) ? (string)$_GET['last'] : '';
+$meta = json_read(DATA_DIR . '/menu_meta.json', ['updatedAt' => null]);
+$updatedAt = (string)($meta['updatedAt'] ?? ''); $payload = json_encode(['updatedAt' => $updatedAt]);
+if ($payload !== false && $updatedAt !== '' && $updatedAt !== $last) { echo "event: menu\n"; echo "data: " . $payload . "\n\n"; }
+else { echo "event: ping\ndata: {}\n\n"; }
+@ob_flush(); @flush();
+
+[7] Cucina: normalizza note e aggrega per mandata (admin/kitchen.php)
+// Toglie NBSP, compatta gli spazi e raggruppa le comande per mandata + nota
+function normalize_note(string $s): string {
+    $s = html_entity_decode($s, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+    $s = str_replace("\xC2\xA0", ' ', $s); // NBSP -> spazio
+    $s = preg_replace('/\s+/u', ' ', $s) ?? $s;
+    return trim($s);
+}
+foreach ($openTableIds as $tableId) {
+    $tab = sqlite_load_tab($tableId);
+    foreach (($tab['items'] ?? []) as $it) {
+        $noteKey = normalize_note((string)($it['note'] ?? '')); $batch = (int)($it['batch'] ?? 1);
+        if (!isset($byBatch[$batch])) { $byBatch[$batch] = ['groups'=>[], 'totPending'=>0, 'totSent'=>0]; }
+        $k = $id . '|' . $noteKey; // stessa voce + stessa nota => raggruppa
+        if ($status === 'sent') { $byBatch[$batch]['groups'][$k]['sent'] += $qty; $byBatch[$batch]['totSent'] += $qty; }
+        else { $byBatch[$batch]['groups'][$k]['pending'] += $qty; $byBatch[$batch]['totPending'] += $qty; }
+    }
+}
