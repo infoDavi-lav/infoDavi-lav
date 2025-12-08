@@ -11,8 +11,6 @@
   <tr>
     <td align="center" style="padding:8px;"><img src="img/gluten.png" alt="Gluten" width="110" height="110"><div>Gluten (EN)</div></td>
     <td align="center" style="padding:8px;"><img src="img/peanut.png" alt="Peanuts" width="110" height="110"><div>Peanuts (EN)</div></td>
-  </tr>
-  <tr>
     <td align="center" style="padding:8px;"><img src="img/glutine.png" alt="Glutine" width="110" height="110"><div>Glutine (IT)</div></td>
     <td align="center" style="padding:8px;"><img src="img/arachidi.png" alt="Arachidi" width="110" height="110"><div>Arachidi (IT)</div></td>
   </tr>
@@ -20,3 +18,4 @@
 
 - Acquista il pack completo (PNG/SVG, IT/EN) con tutte le icone allergeni, pronte per web e stampa. 
 - Get the full pack (PNG/SVG, IT/EN) with all allergen icons, ready for web and print.
+
