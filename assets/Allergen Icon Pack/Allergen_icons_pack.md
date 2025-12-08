@@ -18,7 +18,3 @@ Set di icone allergeni in PNG/SVG (IT/EN) per menu digitali, etichette e cartell
 </table>
 
 Compra il pack completo (PNG/SVG, IT/EN) con tutte le icone allergeni, pronte per web e stampa.
-
-
-
-
