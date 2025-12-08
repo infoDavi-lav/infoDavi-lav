@@ -27,6 +27,7 @@ project-name
 |-- 🗂️src/
 |-- 🗂️assets/
 |-- 🗂️docs/
+|-- 🗂️img/
 ```
 IT: Ogni progetto include descrizione, tecnologie e istruzioni d'uso.
 
