@@ -4,7 +4,7 @@ Selezione di blocchi pronti da mostrare su GitHub (PHP/JS), con pillole di conte
 
 ---
 
-## 🛡️ Rate limit anti brute force (`rate_limit.php`)
+## 🛡️ Rate limit anti brute force 
 - 🚦 Conta i tentativi per IP, applica un ban temporaneo e registra su file di log.
 ```php
 function rl_on_failure(string $scope, string $ip, int $maxAttempts, int $windowSeconds, int $banSeconds): array {
@@ -28,7 +28,7 @@ function rl_on_failure(string $scope, string $ip, int $maxAttempts, int $windowS
 
 ---
 
-## 🔄 Overlay JSON -> SQLite trasparente (`json_store.php`)
+## 🔄 Overlay JSON -> SQLite trasparente 
 - 🗂️ L'app pensa di leggere/scrivere JSON, ma i percorsi chiave vengono reindirizzati al DB per coerenza live.
 ```php
 function json_store_virtual_read(string $path, $default = null): array {
@@ -70,7 +70,7 @@ function json_store_virtual_write(string $path, $data): array {
 
 ---
 
-## 🧳 Migrazione da JSON legacy a SQLite (`sqlite_store.php`)
+## 🧳 Migrazione da JSON legacy a SQLite 
 - 🚚 Riempie il DB vuoto importando menu, coperto, tavoli, tabs e carrelli esistenti su disco.
 ```php
 function sqlite_import_legacy_if_needed(PDO $pdo): void {
@@ -116,7 +116,7 @@ function sqlite_import_legacy_if_needed(PDO $pdo): void {
 
 ---
 
-## 💾 Backup e pulizia (`backup_daily.php` / `backup_prune.php`)
+## 💾 Backup e pulizia 
 - ⏱️ `backup_db_daily()` viene schedulato da CLI; `backup_prune.php` rimuove vecchi dump e registra l'esito.
 ```php
 $keepDays = (int)(getenv('RISTO_BACKUP_KEEP_DAYS') ?: 30);
@@ -139,7 +139,7 @@ if (function_exists('app_log')) {
 
 ---
 
-## 📦 Export CSV/ZIP portabile (`export-zip.php`)
+## 📦 Export CSV/ZIP portabile 
 - 🧭 Genera CSV con header dinamici e BOM UTF-8; se `ZipArchive` non c'e', streamma uno ZIP minimale.
 ```php
 function build_csv_from_data($data, string $type): string {
@@ -191,7 +191,7 @@ class SimpleZip {
 
 ---
 
-## 🍳 Cucina: note normalizzate e gruppi per mandata (`kitchen.php`)
+## 🍳 Cucina: note normalizzate e gruppi per mandata 
 - 🧾 Ripulisce le note (NBSP, spazi multipli) e aggrega ordini per batch + nota per evitare duplicati.
 ```php
 function normalize_note(string $s): string {
@@ -222,3 +222,4 @@ foreach ($openTableIds as $tableId) {
     }
 }
 ```
+
