@@ -30,3 +30,4 @@ Set di icone allergeni in SVG/PNG (IT/EN) pronte per menu digitali, etichette e 
 - Le immagini puntano alla cartella `img/` accanto al README. Se i nomi differiscono, aggiorna gli `src`.
 - Duplica un blocco `<figure>` per aggiungere altri allergeni o varianti colore.
 - SVG: se vedi bordi strani su sfondo scuro, applica `background:#f7f7f9` (già incluso) o fornisci una versione con margine.
+
