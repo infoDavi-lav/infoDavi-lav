@@ -81,10 +81,31 @@ Davide Cocchetti / Davik
 
 ## 🌐 Link
 IT/EN: Contatti principali / Main Contact
-- 🌐 <a href="https://www.linkedin.com/in/davide-k-9a7a99375/" target="_blank" rel="noopener">LinkedIn</a>
-- 🔗 <a href="https://davi-k-portfolio.netlify.app/" target="_blank" rel="noopener">Portfolio</a>
-- ☕ <a href="https://ko-fi.com/infodavik" target="_blank" rel="noopener">Ko-fi</a>
-- 📩 <a href="mailto:info.davi.lav@gmail.com" target="_blank" rel="noopener">info.davi.lav@gmail.com</a>
+
+<div align="center">
+
+<a href="https://davi-k-portfolio.netlify.app/" target="_blank" rel="noopener">
+  <img src="img/avatar.png" alt="Portfolio" width="180" style="margin:8px;border-radius:12px;" />
+</a>
+
+<a href="https://www.linkedin.com/in/davide-k-9a7a99375/" target="_blank" rel="noopener">
+  <img src="img/linkedin.png" alt="LinkedIn" width="64" style="margin:8px;" />
+</a>
+
+<a href="mailto:info.davi.lav@gmail.com" target="_blank" rel="noopener">
+  <img src="https://www.gstatic.com/images/branding/product/1x/gmail_2020q4_48dp.png" alt="Email" width="64" style="margin:8px;" />
+</a>
+
+<a href="https://www.buymeacoffee.com/Infodavik" target="_blank" rel="noopener">
+  <img src="img/bmc-button.png" alt="Buy me a beer on BuyMeACoffee" width="220" style="margin:8px;" />
+</a>
+
+<a href="https://ko-fi.com/infodavik" target="_blank" rel="noopener">
+  <img src="img/support_me_on_kofi_dark.webp" alt="Support me on Ko-fi" width="220" style="margin:8px;" />
+</a>
+
+</div>
+
 
 ---
 
