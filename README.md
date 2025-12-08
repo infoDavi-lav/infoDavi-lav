@@ -24,14 +24,13 @@ Utilizzato come **portfolio tecnico**, archivio e laboratorio di sviluppo.
 ---
 
 ## 🧱 ┃ Struttura del Repository
-```txt```
-
+```txt
 📁 project-name  
  ├─ 📄 README.md  
  ├─ 📁 src/  
  ├─ 📁 assets/  
  └─ 📁 docs/  
-
+```
 ---
 
 Ogni progetto contiene una propria documentazione con:
