@@ -81,8 +81,11 @@ Davide Cocchetti / Davik
 
 ## 🌐 Link
 IT/EN: Contatti principali / Main Contact
-- LinkedIn: https://www.linkedin.com/in/davide-k-9a7a99375/
-- Portfolio: https://davi-k-portfolio.netlify.app/
+- 🌐 <a href="https://www.linkedin.com/in/davide-k-9a7a99375/" target="_blank" rel="noopener">LinkedIn</a>
+- 🔗 <a href="https://davi-k-portfolio.netlify.app/" target="_blank" rel="noopener">Portfolio</a>
+- ☕ <a href="https://ko-fi.com/infodavik" target="_blank" rel="noopener">Ko-fi</a>
+- 📩 <a href="mailto:info.davi.lav@gmail.com" target="_blank" rel="noopener">info.davi.lav@gmail.com</a>
+
 
 ---
 
