@@ -19,11 +19,11 @@ Sostituisci i nomi dei file se diversi: le immagini puntano alla cartella `ICONE
     <figcaption>Glutine (IT)</figcaption>
   </figure>
   <figure style="text-align:center;">
-    <img src="img/peanut.png" alt="Peanuts (EN)" style="max-width:120px;">
+    <img src="img/peanut.svg" alt="Peanuts (EN)" style="max-width:120px;">
     <figcaption>Peanuts (EN)</figcaption>
   </figure>
   <figure style="text-align:center;">
-    <img src="img/arachidi.png" alt="Arachidi (IT)" style="max-width:120px;">
+    <img src="img/arachidi.svg" alt="Arachidi (IT)" style="max-width:120px;">
     <figcaption>Arachidi (IT)</figcaption>
   </figure>
 </div>
@@ -31,6 +31,7 @@ Sostituisci i nomi dei file se diversi: le immagini puntano alla cartella `ICONE
 ## Note
 - Le immagini sono referenziate relative al README: se i nomi differiscono, aggiorna gli `src` sopra.
 - Puoi duplicare i blocchi `<figure>` per aggiungere altri allergeni o varianti.
+
 
 
 
