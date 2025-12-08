@@ -52,6 +52,7 @@ IT:
 - Mostrare competenze di sviluppo e soluzioni riutilizzabili
 - Tracciare progressi ed esperimenti
 - Condividere componenti e snippet veloci da riusare
+  
 EN:
 - Showcase development skills and reusable solutions
 - Track progress and experiments
