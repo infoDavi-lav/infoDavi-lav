@@ -11,11 +11,11 @@ Sostituisci i nomi dei file se diversi: le immagini puntano alla cartella `ICONE
 
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;align-items:center;">
   <figure style="text-align:center;">
-    <img src="ICONE_ALLERGENI_ZIP_EN_IT_PNG_SVG/allergen-gluten-en.svg" alt="Gluten (EN)" style="max-width:120px;">
+    <img src="img/agluten.svg" alt="Gluten (EN)" style="max-width:120px;">
     <figcaption>Gluten (EN)</figcaption>
   </figure>
   <figure style="text-align:center;">
-    <img src="ICONE_ALLERGENI_ZIP_EN_IT_PNG_SVG/allergen-gluten-it.svg" alt="Glutine (IT)" style="max-width:120px;">
+    <img src="img/aglutine.svg" alt="Glutine (IT)" style="max-width:120px;">
     <figcaption>Glutine (IT)</figcaption>
   </figure>
   <figure style="text-align:center;">
@@ -31,3 +31,4 @@ Sostituisci i nomi dei file se diversi: le immagini puntano alla cartella `ICONE
 ## Note
 - Le immagini sono referenziate relative al README: se i nomi differiscono, aggiorna gli `src` sopra.
 - Puoi duplicare i blocchi `<figure>` per aggiungere altri allergeni o varianti.
+
