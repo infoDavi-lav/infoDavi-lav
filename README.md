@@ -77,48 +77,44 @@ IT/EN: Contatti principali / Main Contact
 
 <div align="center">
 
-<div style="text-align:center;margin:8px 0 16px;">
-  <a href="https://davi-k-portfolio.netlify.app/" target="_blank" rel="noopener">
-    <img src="img/avatar.png" alt="Portfolio" width="180" style="border-radius:12px;" />
-  </a>
-  <div style="font-size:13px;color:#4b5563;margin-top:4px;">Portfolio</div>
-</div>
-
-<div style="display:flex;justify-content:center;align-items:center;gap:12px;margin:6px 0;">
-  <div style="text-align:center;">
-    <a href="https://www.linkedin.com/in/davide-k-9a7a99375/" target="_blank" rel="noopener">
-      <img src="img/linkedin.png" alt="LinkedIn" width="64" />
-    </a>
-    <div style="font-size:13px;color:#4b5563;margin-top:4px;">LinkedIn</div>
-  </div>
-
-  <span style="display:inline-block;width:1px;height:60px;background:#e5e7eb;"></span>
-
-  <div style="text-align:center;">
-    <a href="mailto:info.davi.lav@gmail.com" target="_blank" rel="noopener">
-      <img src="https://www.gstatic.com/images/branding/product/1x/gmail_2020q4_48dp.png" alt="Email" width="64" />
-    </a>
-    <div style="font-size:13px;color:#4b5563;margin-top:4px;">Email</div>
-  </div>
-</div>
-
-<div style="display:flex;justify-content:center;align-items:center;gap:12px;margin:6px 0;">
-  <div style="text-align:center;">
-    <a href="https://www.buymeacoffee.com/Infodavik" target="_blank" rel="noopener">
-      <img src="img/bmc-button.png" alt="Buy me a beer on BuyMeACoffee" width="220" />
-    </a>
-    <div style="font-size:13px;color:#4b5563;margin-top:4px;">Buy me a beer</div>
-  </div>
-
-  <span style="display:inline-block;width:1px;height:60px;background:#e5e7eb;"></span>
-
-  <div style="text-align:center;">
-    <a href="https://ko-fi.com/infodavik" target="_blank" rel="noopener">
-      <img src="img/support_me_on_kofi_dark.webp" alt="Support me on Ko-fi" width="220" />
-    </a>
-    <div style="font-size:13px;color:#4b5563;margin-top:4px;">Ko-fi</div>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center" colspan="2">
+      <a href="https://davi-k-portfolio.netlify.app/" target="_blank" rel="noopener">
+        <img src="img/avatar.png" alt="Portfolio" width="180" />
+      </a>
+      <div>Portfolio</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/davide-k-9a7a99375/" target="_blank" rel="noopener">
+        <img src="img/linkedin.png" alt="LinkedIn" width="64" />
+      </a>
+      <div>LinkedIn</div>
+    </td>
+    <td align="center">
+      <a href="mailto:info.davi.lav@gmail.com" target="_blank" rel="noopener">
+        <img src="https://www.gstatic.com/images/branding/product/1x/gmail_2020q4_48dp.png" alt="Email" width="64" />
+      </a>
+      <div>Email</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.buymeacoffee.com/Infodavik" target="_blank" rel="noopener">
+        <img src="img/bmc-button.png" alt="Buy me a beer on BuyMeACoffee" width="220" />
+      </a>
+      <div>Buy me a beer</div>
+    </td>
+    <td align="center">
+      <a href="https://ko-fi.com/infodavik" target="_blank" rel="noopener">
+        <img src="img/support_me_on_kofi_dark.webp" alt="Support me on Ko-fi" width="220" />
+      </a>
+      <div>Ko-fi</div>
+    </td>
+  </tr>
+</table>
 
 </div>
 
