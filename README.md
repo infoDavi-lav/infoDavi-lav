@@ -23,11 +23,10 @@ EN: Personal repo for code snippets, mini projects, technical experiments and re
 ## 🧱 Struttura | Structure
 ```
 project-name
-|-- README.md
-|-- src/
-|-- assets/
-|-- docs/
-|-- snippets/   # highlight e spezzoni riutilizzabili
+|-- 📝README.md
+|-- 🗂️src/
+|-- 🗂️assets/
+|-- 🗂️docs/
 ```
 IT: Ogni progetto include descrizione, tecnologie e istruzioni d'uso.
 
@@ -89,6 +88,6 @@ IT/EN: Contatti principali / Main Contact
 
 <div align="center">
 
-⭐️ Metti una stella se ti è utile · Star it if you find it useful
+✨ Metti una stella se ti è utile ✨ Star it if you find it useful ✨
 
 </div>
