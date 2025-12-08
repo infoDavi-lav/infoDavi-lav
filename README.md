@@ -103,13 +103,13 @@ IT/EN: Contatti principali / Main Contact
   <tr>
     <td align="center">
       <a href="https://www.buymeacoffee.com/Infodavik" target="_blank" rel="noopener">
-        <img src="img/bmc-button.png" alt="Buy me a beer on BuyMeACoffee" width="220" />
+        <img src="img/bmc-button.png" alt="Buy me a beer on BuyMeACoffee" width="240" />
       </a>
       <div>Buy me a beer</div>
     </td>
     <td align="center">
       <a href="https://ko-fi.com/infodavik" target="_blank" rel="noopener">
-        <img src="img/support_me_on_kofi_dark.webp" alt="Support me on Ko-fi" width="220" />
+        <img src="img/support_me_on_kofi_dark.webp" alt="Support me on Ko-fi" width="240" />
       </a>
       <div>Ko-fi</div>
     </td>
