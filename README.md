@@ -12,7 +12,7 @@
 
 ---
 
-## 🗂️ ┃ Panoramica | Overview
+## 🗂️  Panoramica | Overview
 **IT:** Repository personale dedicato alla raccolta di:
 - **Snippet di codice**
 - **Mini-progetti**
@@ -33,7 +33,7 @@ Used as a **technical portfolio**, archive and development lab.
 
 ---
 
-## 🧱 ┃ Struttura del Repository | Repository Structure
+## 🧱  Struttura del Repository | Repository Structure
 ```txt
 📁 project-name  
  ├─ 📄 README.md  
@@ -53,7 +53,7 @@ Used as a **technical portfolio**, archive and development lab.
 
 ---
 
-## 🛠️ ┃ Tecnologie | Technologies
+## 🛠️  Tecnologie | Technologies
 - 🟧 HTML / CSS / JavaScript  
 - 🟪 PHP  
 - 🟦 SQL / Database  
@@ -62,7 +62,7 @@ Used as a **technical portfolio**, archive and development lab.
 
 ---
 
-## 🎯 ┃ Obiettivi | Goals
+## 🎯  Obiettivi | Goals
 **IT:**
 - ✅ Mostrare competenze di sviluppo  
 - ✅ Tenere traccia dei progressi  
@@ -77,7 +77,7 @@ Used as a **technical portfolio**, archive and development lab.
 
 ---
 
-## ⚠️ ┃ Note | Notes
+## ⚠️  Note | Notes
 **IT:**
 - Alcuni progetti sono **work in progress**  
 - Il codice può essere sperimentale  
@@ -90,7 +90,7 @@ Used as a **technical portfolio**, archive and development lab.
 
 ---
 
-## 📄 ┃ Licenza | License
+## 📄  Licenza | License
 **IT:** Questo repository è distribuito sotto licenza **MIT**  
 (se non diversamente specificato nei singoli progetti).
 
@@ -99,12 +99,12 @@ unless otherwise specified in individual projects.
 
 ---
 
-## 👤 ┃ Autore | Author
+## 👤  Autore | Author
 **Davide Cocchetti / Davik**
 
 ---
 
-## 🌐 ┃ Link personali | Personal Links
+## 🌐  Link personali | Personal Links
 - 🔗 **LinkedIn:** https://www.linkedin.com/in/davide-k-9a7a99375/  
 - 🌍 **Portfolio:** https://davi-k-portfolio.netlify.app/  
 
