@@ -1,117 +1,87 @@
 <div align="center">
 
-# 🚀 Code Showcase Repository  
-### Raccolta personale di progetti, snippet ed esperimenti  
+# Code Showcase Repository
+### Raccolta personale di progetti, snippet ed esperimenti
 ### Personal collection of projects, snippets and experiments
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/infoDavi-lav/Show-Code)
 ![GitHub stars](https://img.shields.io/github/stars/infoDavi-lav/Show-Code?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/infoDavi-lav/Show-Code)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 </div>
 
 ---
 
-## 🗂️  Panoramica | Overview
-**IT:** Repository personale dedicato alla raccolta di:
-- **Snippet di codice**
-- **Mini-progetti**
-- **Esperimenti tecnici**
-- **Componenti riutilizzabili**
-- **Showcase di funzionalità**
-
-Utilizzato come **portfolio tecnico**, archivio e laboratorio di sviluppo.
-
-**EN:** Personal repository dedicated to:
-- **Code snippets**
-- **Mini projects**
-- **Technical experiments**
-- **Reusable components**
-- **Feature showcases**
-
-Used as a **technical portfolio**, archive and development lab.
+## Panoramica | Overview
+IT: Repository personale dedicato a snippet, mini-progetti, esperimenti tecnici e componenti riutilizzabili. E' il mio laboratorio e portfolio tecnico.
+EN: Personal repo for code snippets, mini projects, technical experiments and reusable components. My lab and technical portfolio.
 
 ---
 
-## 🧱  Struttura del Repository | Repository Structure
-```txt
-📁 project-name  
- ├─ 📄 README.md  
- ├─ 📁 src/  
- ├─ 📁 assets/  
- └─ 📁 docs/  
+## Struttura | Structure
 ```
-**IT:** Ogni progetto contiene una propria documentazione con:
-- Descrizione  
-- Tecnologie  
-- Istruzioni di utilizzo  
-
-**EN:** Each project includes its own documentation with:
-- Description  
-- Technologies  
-- Usage instructions  
-
----
-
-## 🛠️  Tecnologie | Technologies
-- 🟧 HTML / CSS / JavaScript  
-- 🟪 PHP  
-- 🟦 SQL / Database  
-- ⚙️ API & Backend  
-- 🧪 Prototypes & Experiments  
+project-name
+|-- README.md
+|-- src/
+|-- assets/
+|-- docs/
+|-- snippets/   # highlight e spezzoni riutilizzabili
+```
+IT: Ogni progetto include descrizione, tecnologie e istruzioni d'uso.
+EN: Each project ships with description, tech stack and usage instructions.
 
 ---
 
-## 🎯  Obiettivi | Goals
-**IT:**
-- ✅ Mostrare competenze di sviluppo  
-- ✅ Tenere traccia dei progressi  
-- ✅ Creare una libreria personale di soluzioni  
-- ✅ Condividere codice riutilizzabile  
-
-**EN:**
-- ✅ Showcase development skills  
-- ✅ Track personal progress  
-- ✅ Build a personal library of solutions  
-- ✅ Share reusable code  
+## Tecnologie | Tech Stack
+- HTML5, CSS3, JavaScript
+- Python, C++
+- PHP, SQL, JSON
+- VS Code, GitHub, AI Tools
 
 ---
 
-## ⚠️  Note | Notes
-**IT:**
-- Alcuni progetti sono **work in progress**  
-- Il codice può essere sperimentale  
-- Non tutti i progetti sono pensati per uso in produzione  
-
-**EN:**
-- Some projects are **work in progress**  
-- Code may be experimental  
-- Not all projects are intended for production use  
+## Code Highlights
+IT: Snippet commentati in `estratti_codice.txt` (sicurezza sessioni, rate limit, SSE, backup, cucina). Aggiungero' altri esempi via via che il repo cresce.
+EN: Commented snippets in `estratti_codice.txt` (session security, rate limiting, SSE, backups, kitchen flow). More examples will land as the repo grows.
 
 ---
 
-## 📄  Licenza | License
-**IT:** Questo repository è distribuito sotto licenza **MIT**  
-(se non diversamente specificato nei singoli progetti).
-
-**EN:** This repository is distributed under the **MIT License**,  
-unless otherwise specified in individual projects.
-
----
-
-## 👤  Autore | Author
-**Davide Cocchetti / Davik**
+## Obiettivi | Goals
+IT:
+- Mostrare competenze di sviluppo e soluzioni riutilizzabili
+- Tracciare progressi ed esperimenti
+- Condividere componenti e snippet veloci da riusare
+EN:
+- Showcase development skills and reusable solutions
+- Track progress and experiments
+- Share components and quick-drop snippets
 
 ---
 
-## 🌐  Link personali | Personal Links
-- 🔗 **LinkedIn:** https://www.linkedin.com/in/davide-k-9a7a99375/  
-- 🌍 **Portfolio:** https://davi-k-portfolio.netlify.app/  
+## Note | Notes
+IT: Work in progress: alcuni pezzi sono sperimentali e non pensati per produzione.
+EN: Work in progress: some parts are experimental and not production-ready.
 
 ---
+
+## Licenza | License
+IT: MIT (se non diversamente specificato nei singoli progetti).  
+EN: MIT (unless otherwise noted for individual projects).
+
+---
+
+## Autore | Author
+Davide Cocchetti / Davik
+
+## Link
+Contatti principali / Main Contact
+- LinkedIn: https://www.linkedin.com/in/davide-k-9a7a99375/
+- Portfolio: https://davi-k-portfolio.netlify.app/
 
 <div align="center">
 
-✨ Repository in continuo aggiornamento | Continuously updated repository ✨
+IT: Metti una stella se ti e' utile - Repository in continuo aggiornamento  
+EN: Star it if you find it useful - Continuously updated repository
 
 </div>
