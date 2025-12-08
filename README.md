@@ -86,11 +86,3 @@ IT/EN: Contatti principali / Main Contact
 - ☕ <a href="https://ko-fi.com/infodavik" target="_blank" rel="noopener">Ko-fi</a>
 - 📩 <a href="mailto:info.davi.lav@gmail.com" target="_blank" rel="noopener">info.davi.lav@gmail.com</a>
 
-
----
-
-<div align="center">
-
-✨ Metti una stella se ti è utile ✨ Star it if you find it useful ✨
-
-</div>
