@@ -17,17 +17,5 @@ Set di icone allergeni in PNG/SVG (IT/EN) per menu digitali, etichette e cartell
   </tr>
 </table>
 
-## Esempio: sezione menu ristorante
-<ul style="list-style:none;padding:0;">
-  <li style="margin:8px 0;display:flex;align-items:center;gap:10px;">
-    <img src="img/gluten.png" alt="Gluten" width="32" height="32"> Pappardelle ai funghi (contiene glutine)
-  </li>
-  <li style="margin:8px 0;display:flex;align-items:center;gap:10px;">
-    <img src="img/arachidi.png" alt="Arachidi" width="32" height="32"> Brownie al cioccolato (tracce di arachidi)
-  </li>
-  <li style="margin:8px 0;display:flex;align-items:center;gap:10px;">
-    <img src="img/peanut.png" alt="Peanuts" width="32" height="32"> Satay di pollo (arachidi)
-  </li>
-</ul>
+Compra il pack completo (PNG/SVG, IT/EN) con tutte le icone allergeni, pronte per web e stampa.
 
-Compra il pack completo (PNG/SVG, IT/EN) con tutte le icone allergeni, pronte per web e stampa. Aggiorna i nomi file negli `src` se usi altre varianti.
