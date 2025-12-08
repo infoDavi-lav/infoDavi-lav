@@ -15,6 +15,7 @@
 
 ## 🗂️ Panoramica | Overview
 IT: Repository personale dedicato a snippet, mini-progetti, esperimenti tecnici e componenti riutilizzabili. È il mio laboratorio e portfolio tecnico.
+
 EN: Personal repo for code snippets, mini projects, technical experiments and reusable components. My lab and technical portfolio.
 
 ---
@@ -29,6 +30,7 @@ project-name
 |-- snippets/   # highlight e spezzoni riutilizzabili
 ```
 IT: Ogni progetto include descrizione, tecnologie e istruzioni d'uso.
+
 EN: Each project ships with description, tech stack and usage instructions.
 
 ---
@@ -43,6 +45,7 @@ EN: Each project ships with description, tech stack and usage instructions.
 
 ## ✨ Code Highlights
 IT: Snippet commentati in `estratti_codice.txt` (sicurezza sessioni, rate limit, SSE, backup, cucina). Aggiungerò altri esempi via via che il repo cresce.
+
 EN: Commented snippets in `estratti_codice.txt` (session security, rate limiting, SSE, backups, kitchen flow). More examples will land as the repo grows.
 
 ---
@@ -62,21 +65,23 @@ EN:
 
 ## ⚠️ Note | Notes
 IT: Work in progress: alcuni pezzi sono sperimentali e non pensati per produzione.
+
 EN: Work in progress: some parts are experimental and not production-ready.
 
 ---
 
 ## 📄 Licenza | License
 IT: MIT (se non diversamente specificato nei singoli progetti).
+
 EN: MIT (unless otherwise noted for individual projects).
 
 ---
 
 ## 👤 Autore | Author
-IT/EN: Davide Cocchetti / Davik
+Davide Cocchetti / Davik
 
 ## 🌐 Link
-IT/EN: Contatti principali
+IT/EN: Contatti principali / Main Contact
 - LinkedIn: https://www.linkedin.com/in/davide-k-9a7a99375/
 - Portfolio: https://davi-k-portfolio.netlify.app/
 
