@@ -101,7 +101,7 @@ Davide Cocchetti / Davik
   </tr>
   <tr>
     <td align="center">
-      <a href="https://www.buymeacoffee.com/Infodavik" target="_blank" rel="noopener">
+      <a href="https://buymeacoffee.com/infodavik" target="_blank" rel="noopener">
         <img src="img/bmc-button.png" alt="Buy me a beer on BuyMeACoffee" width="240" />
       </a>
       <div>Buy me a beer</div>
