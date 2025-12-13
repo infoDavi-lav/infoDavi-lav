@@ -35,7 +35,7 @@
   <a href="https://davi-k-portfolio.netlify.app/portfolio-musica/" style="display:inline-block;padding:13px 20px;background:linear-gradient(135deg,#0f5fa3,#4bb4ff);color:#f7f7f7;border-radius:14px;text-decoration:none;font-weight:800;letter-spacing:0.01em;border:1px solid #0f5fa3;box-shadow:0 14px 32px rgba(0,95,163,0.3);">Guarda la demo &rarr;</a>
 </p>
 <p align="center">
-  <a href="https://davi-k-portfolio.netlify.app/portfolio-musica/"><img src="./Immagini/Immagine.png" alt="Anteprima portfolio" width="340" style="border-radius:14px;border:1px solid #d0d7de;box-shadow:0 12px 28px rgba(0,0,0,0.2);"></a>
+  <a href="https://davi-k-portfolio.netlify.app/portfolio-musica/"><img src="../img/avatar.png" alt="Anteprima portfolio" width="340" style="border-radius:14px;border:1px solid #d0d7de;box-shadow:0 12px 28px rgba(0,0,0,0.2);"></a>
 </p>
 
 ---
@@ -69,5 +69,5 @@
   <a href="https://davi-k-portfolio.netlify.app/portfolio-musica/" style="display:inline-block;padding:13px 20px;background:linear-gradient(135deg,#0f5fa3,#4bb4ff);color:#f7f7f7;border-radius:14px;text-decoration:none;font-weight:800;letter-spacing:0.01em;border:1px solid #0f5fa3;box-shadow:0 14px 32px rgba(0,95,163,0.3);">View the demo &rarr;</a>
 </p>
 <p align="center">
-  <a href="https://davi-k-portfolio.netlify.app/portfolio-musica/"><img src="./Immagini/Immagine.png" alt="Portfolio preview" width="340" style="border-radius:14px;border:1px solid #d0d7de;box-shadow:0 12px 28px rgba(0,0,0,0.2);"></a>
+  <a href="https://davi-k-portfolio.netlify.app/portfolio-musica/"><img src="../img/avatar.png" alt="Portfolio preview" width="340" style="border-radius:14px;border:1px solid #d0d7de;box-shadow:0 12px 28px rgba(0,0,0,0.2);"></a>
 </p>
