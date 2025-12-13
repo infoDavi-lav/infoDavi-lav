@@ -1,5 +1,5 @@
 <h1 align="center">&#127925; Portfolio Musicista / Producer</h1>
-<p align="center">Landing/portfolio premium per mostrare musica, servizi e contatti con un look moderno.</p>
+<p align="center">Landing/portfolio premium per mostrare musica, servizi e contatti con un look moderno. / Premium landing page/portfolio to showcase music, services, and contacts with a modern look.</p>
 <p align="center">
   <span style="display:inline-block;padding:6px 10px;border-radius:999px;background:#0f1724;color:#e6edf7;border:1px solid #0f5fa3;font-size:12px;">Live demo-ready</span>
 </p>
