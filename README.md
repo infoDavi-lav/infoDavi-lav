@@ -24,11 +24,10 @@ EN: Personal repo for code snippets, mini projects, technical experiments and re
 ```
 project-name
 |-- 📝README.md
-|-- 🗂️Docs/
-|-- 🗂️src/
 |-- 🗂️assets/
-|-- 🗂️docs/
+|-- 🗂️Docs/
 |-- 🗂️img/
+|-- 🗂️Plugin Minecraft/
 ```
 IT: Ogni progetto include descrizione, tecnologie e istruzioni d'uso.
 
