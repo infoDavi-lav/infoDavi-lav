@@ -34,8 +34,7 @@ cycle:
   day_minutes: 20
   night_minutes: 10
   min_minutes: 10
-worlds:
-  - ETERNAL_word
+worlds: []
 </code></pre>
 
 <h2>&#x1F680; Install</h2>
@@ -84,3 +83,4 @@ worlds:
     </td>
   </tr>
 </table>
+
