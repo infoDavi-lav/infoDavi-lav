@@ -57,19 +57,10 @@ worlds: []
 
 <h2>📦 Download</h2>
 
-<p>
-  🚧 <strong>Coming soon on CurseForge</strong><br/>
-  The plugin will be officially published here:
-</p>
-
 <p align="center">
-  👉 <a href="https://www.curseforge.com/members/killerytali/projects" target="_blank" rel="noopener">
-    https://www.curseforge.com/members/killerytali/projects
+  👉 <a href="https://www.curseforge.com/minecraft/bukkit-plugins/daynightcicle" target="_blank" rel="noopener">
+    CURSE FORGE
   </a>
-</p>
-
-<p>
-  Once available, this section will be updated with the direct project link.
 </p>
 
 <hr/>
@@ -121,3 +112,4 @@ worlds: []
     </td>
   </tr>
 </table>
+
