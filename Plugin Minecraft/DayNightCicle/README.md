@@ -1,6 +1,9 @@
 <div align="center">
   <h1>&#x1F324;&#xFE0F; DayNightCicle</h1>
-  <p>DayNightCicle is a lightweight Paper plugin that lets you extend day and night length in minutes via YAML and live commands.</p>
+  <p>
+    DayNightCicle is a lightweight Paper plugin that lets you extend day and night
+    length in minutes via YAML and live commands.
+  </p>
   <p><strong>Paper 1.21+ &#x2022; Java 21</strong></p>
 </div>
 
@@ -22,10 +25,10 @@
 
 <h2>&#x1F4DD; Commands</h2>
 <ul>
-  <li><code>/giornolungo</code> - show help.</li>
-  <li><code>/giornolungo reload</code> - reload config.</li>
-  <li><code>/giornolungo status</code> - show current settings.</li>
-  <li><code>/giornolungo set day &lt;min&gt; night &lt;min&gt;</code> - update and save.</li>
+  <li><code>/giornolungo</code> – show help.</li>
+  <li><code>/giornolungo reload</code> – reload config.</li>
+  <li><code>/giornolungo status</code> – show current settings.</li>
+  <li><code>/giornolungo set day &lt;min&gt; night &lt;min&gt;</code> – update and save.</li>
 </ul>
 
 <h2>&#x2699;&#xFE0F; Config</h2>
@@ -44,7 +47,42 @@ worlds: []
   <li>Edit the config and run <code>/giornolungo reload</code>.</li>
 </ol>
 
+<blockquote>
+  <strong>⚠️ Note</strong><br/>
+  Please download the plugin from <strong>CurseForge</strong> once available.<br/>
+  Downloads on CurseForge help support the project and its visibility.
+</blockquote>
+
+<hr/>
+
+<h2>📦 Download</h2>
+
+<p>
+  🚧 <strong>Coming soon on CurseForge</strong><br/>
+  The plugin will be officially published here:
+</p>
+
+<p align="center">
+  👉 <a href="https://www.curseforge.com/members/killerytali/projects" target="_blank" rel="noopener">
+    https://www.curseforge.com/members/killerytali/projects
+  </a>
+</p>
+
+<p>
+  Once available, this section will be updated with the direct project link.
+</p>
+
+<hr/>
+
 <h2>&#x1F517; Links</h2>
+
+<p align="center">
+  🔥 <strong>CurseForge profile</strong><br/>
+  <a href="https://www.curseforge.com/members/killerytali/projects" target="_blank" rel="noopener">
+    https://www.curseforge.com/members/killerytali/projects
+  </a>
+</p>
+
 <table>
   <tr>
     <td align="center" colspan="2">
@@ -83,7 +121,3 @@ worlds: []
     </td>
   </tr>
 </table>
-
-
-
-
