@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="img/daynightcicle-logo.svg" alt="DayNightCicle logo" width="180" />
+  <img src="img/daynightcicle.png" alt="DayNightCicle logo" width="180" />
   <h1>&#x1F324;&#xFE0F; DayNightCicle</h1>
   <p>DayNightCicle is a lightweight Paper plugin that lets you extend day and night length in minutes via YAML and live commands.</p>
   <p><strong>Paper 1.21+ &#x2022; Java 21</strong></p>
@@ -99,6 +99,7 @@ worlds: []
     </td>
   </tr>
 </table>
+
 
 
 
