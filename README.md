@@ -64,9 +64,9 @@ EN: Work in progress: some parts are experimental and not production-ready.
 ---
 
 ## 📄 Licenza | License
-IT: MIT (se non diversamente specificato nei singoli progetti).
+IT: Tutti i diritti riservati.
 
-EN: MIT (unless otherwise noted for individual projects).
+EN: All Rights Reserved.
 
 ---
 
