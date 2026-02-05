@@ -47,16 +47,6 @@
 
 ---
 
-## 🔨 Build (optional)
-
-```powershell
-.\mvnw -q package
-```
-
-Output: `target/UtilitiesPack.jar`
-
----
-
 ## 📢 Commands
 
 | Command               | Aliases         | Description                     |
