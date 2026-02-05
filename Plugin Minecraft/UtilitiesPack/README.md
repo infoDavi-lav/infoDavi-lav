@@ -1,6 +1,6 @@
 <div align="center">
 <img src="img/Utility.png" alt="UtilitiesPack logo" width="180" />
-<h1>&#x1F6E0;&#xFE0F; UtilitiesPack V3</h1>
+<h1>&#x1F6E0;&#xFE0F; UtilitiesPack</h1>
 <p>A lightweight utility pack for Paper 1.21.1 with quality-of-life features for staff and players.</p>
 <p><strong>Paper 1.21.1 &#x2022; Java 21+</strong></p>
 </div>
